@@ -1,0 +1,46 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+ }
+ 
+ a {
+    color:white;
+ }
+ button .fas .fa-search{
+    color: #0092ff;
+ }
+.title{
+    font-size: xx-large !important;
+ }
+ .mat-elevation-z8{
+    margin-top: 2%;
+ }
+ .topics a  {
+    color:white  !important;
+    text-decoration: none;
+ }
+ header {
+   background-color: #333333;
+ }
+ 
+ nav ul li a {
+   color: #ffffff;
+ }
+
+ main {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ section {
+   padding: 2rem;
+ }
+ 
+ footer {
+   background-color: #333333;
+   color: #ffffff;
+   text-align: center;
+   padding: 1rem;
+ 
+ }
+

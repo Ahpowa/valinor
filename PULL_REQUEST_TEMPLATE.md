@@ -15,7 +15,7 @@ Justifique porque você optou pela tecnologia X e não a Y?
 Estudei algumas maneiras de efetuar a paginação no conteúdo e fiquei entre o NBX e o Material porém por uma praticidade preferi o Material, contudo não vejo problema algum em utilizar o NBX, cheguei até a importar ele no app.module.ts
 
 **Princípios de software**
-
+ 
 Quais princípios da engenharia de software que você usou?
 KISS (Keep It Simple, Stupid!)
 Busquei nesse projeto não fugir do escopo que foi passado, no caso esse layout https://github.com/search?utf8=%E2%9C%93&q=node&type= e cumprir todos os requisitos solicitados.

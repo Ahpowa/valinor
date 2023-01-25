@@ -1,10 +1,9 @@
 import { OnInit, ViewChild} from '@angular/core';
 import { Component } from '@angular/core';
 import { TabelaService } from './services/tabela.service';
-import { NgbConfig } from '@ng-bootstrap/ng-bootstrap';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
-import { BehaviorSubject } from 'rxjs';
+
 
 @Component({
   selector: 'app-root',
@@ -20,8 +19,7 @@ export class AppComponent implements OnInit {
   displayedColumns = ['name'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
-  public buttonEnabled: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
-  public buttonLabel: BehaviorSubject<string> = new BehaviorSubject<string>('Iniciar');
+
   searchTerm!:string;
 
   

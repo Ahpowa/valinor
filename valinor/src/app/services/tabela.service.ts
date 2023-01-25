@@ -11,10 +11,6 @@ export class TabelaService {
   constructor(private httpClient:HttpClient) { }
 
   getTabela(teste: string) {
-    const headers = new HttpHeaders({
-      'Authorization' : `Bearer ${this.key}`
-    });
-    const requestOptions = {headers:headers};
     return this.httpClient.get('https://api.github.com/search/repositories?q='+ teste);
   }
 }
